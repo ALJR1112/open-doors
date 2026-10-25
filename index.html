@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Doors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#home" aria-label="Open Doors home">
+      <span class="brand-mark">↗</span>
+      <span>
+        <strong>Open Doors</strong>
+        <small>Mentors · Opportunities · Your Future</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">⌂ <span>Home</span></a>
+      <a class="nav-link" href="#mentors">♧ <span>Find Mentors</span></a>
+      <a class="nav-link" href="#profile">♙ <span>My Profile</span></a>
+      <a class="nav-link" href="#projects">▱ <span>My Projects</span></a>
+      <a class="nav-link" href="#explore">◎ <span>Explore Opportunities</span></a>
+      <a class="nav-link" href="#safety">♢ <span>Safety & Support</span></a>
+      <a class="nav-link" href="#resources">▤ <span>Articles & Resources</span></a>
+    </nav>
+
+    <div class="sidebar-note">
+      <span class="tiny-cat">🐱</span>
+      <p>Big dreams start with little steps.</p>
+    </div>
+  </aside>
+
+  <main class="main-content" id="home">
+    <header class="topbar">
+      <button class="menu-button" id="menuButton" aria-label="Toggle navigation">☰</button>
+      <div>
+        <span class="eyebrow">YOUR FUTURE, YOUR WAY</span>
+        <h1>Welcome to Open Doors!</h1>
+      </div>
+      <a href="#profile" class="student-pill">♙ <span>Student</span></a>
+    </header>
+
+    <section class="hero panel">
+      <div class="hero-copy">
+        <span class="eyebrow">A LITTLE GUIDANCE GOES A LONG WAY</span>
+        <h2>Explore Your<br><em>Next Step.</em></h2>
+        <p>Discover mentors, meaningful opportunities, and new ways to turn your curiosity into action.</p>
+        <div class="hero-chips">
+          <span>Your interests</span>
+          <span>Your goals</span>
+          <span>Your possibilities</span>
+        </div>
+        <a class="primary-button" href="#mentors">Find your mentor <span>→</span></a>
+      </div>
+
+      <div class="hero-art">
+        <div class="speech-bubble">I've found some<br>ideas for you! ✨</div>
+        <svg class="cat-mascot hero-cat" viewBox="0 0 220 235" role="img" aria-label="A friendly gray cat wearing a suit and tie">
+          <ellipse cx="110" cy="220" rx="72" ry="9" fill="#dce5d8"/>
+          <path d="M52 76 L45 24 Q44 14 57 25 L83 47 Q110 36 137 47 L164 25 Q177 14 176 30 L168 78 Q188 98 181 137 L176 190 Q172 208 150 208 L69 208 Q46 205 44 185 L39 137 Q32 100 52 76Z" fill="#b9b8ae" stroke="#5c5b52" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M52 42 L75 61 L56 68Z M166 42 L143 61 L162 68Z" fill="#e8c9c7"/>
+          <path d="M82 49 L91 64 L99 47 M120 47 L129 64 L139 49" fill="none" stroke="#77766d" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="86" cy="91" rx="5" ry="7" fill="#423c37"/>
+          <ellipse cx="135" cy="91" rx="5" ry="7" fill="#423c37"/>
+          <path d="M105 101 Q110 106 115 101 L110 97Z" fill="#8c6661"/>
+          <path d="M110 105 Q105 115 96 110 M110 105 Q115 115 124 110" fill="none" stroke="#514940" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M62 101 L38 96 M62 110 L35 111 M158 101 L182 96 M158 110 L185 111" stroke="#77766d" stroke-width="2" stroke-linecap="round"/>
+          <path d="M67 132 Q110 117 153 132 L162 193 Q110 207 58 193Z" fill="#f5f0e6" stroke="#5c5b52" stroke-width="3"/>
+          <path d="M67 132 L99 151 L84 174 L58 146Z M153 132 L121 151 L136 174 L162 146Z" fill="#304e45" stroke="#5c5b52" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M100 151 L110 160 L120 151 L116 185 L110 192 L104 185Z" fill="#d98f8b" stroke="#5c5b52" stroke-width="2"/>
+          <path d="M98 145 L110 151 L122 145 L110 139Z" fill="#e8e1d4" stroke="#5c5b52" stroke-width="2"/>
+          <path d="M72 191 Q110 201 148 191" fill="none" stroke="#d8d0c1" stroke-width="3"/>
+          <path d="M70 207 Q62 217 50 211 M151 207 Q162 218 174 210" fill="none" stroke="#5c5b52" stroke-width="4" stroke-linecap="round"/>
+          <path d="M48 160 Q22 169 33 188 Q41 199 53 185" fill="none" stroke="#a8a79c" stroke-width="13" stroke-linecap="round"/>
+          <path d="M48 160 Q22 169 33 188" fill="none" stroke="#5c5b52" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="sparkle sparkle-one">✦</span>
+        <span class="sparkle sparkle-two">✧</span>
+        <span class="art-caption">Your personal opportunity guide ♡</span>
+      </div>
+    </section>
+
+    <section class="quick-grid">
+      <a class="quick-card" href="#mentors">
+        <span class="quick-icon">♧</span>
+        <span><strong>Find a mentor</strong><small>Get guidance from someone who shares your interests.</small><b>Find matches →</b></span>
+      </a>
+      <a class="quick-card" href="#explore">
+        <span class="quick-icon">🏆</span>
+        <span><strong>Challenge yourself</strong><small>Explore competitions, programs, and new experiences.</small><b>Explore →</b></span>
+      </a>
+      <a class="quick-card" href="#resources">
+        <span class="quick-icon">▤</span>
+        <span><strong>Learn something new</strong><small>Find resources to deepen your knowledge.</small><b>Start learning →</b></span>
+      </a>
+      <a class="quick-card" href="#projects">
+        <span class="quick-icon">✧</span>
+        <span><strong>Start a project</strong><small>Turn an idea into something real.</small><b>Get inspired →</b></span>
+      </a>
+    </section>
+
+    <section class="section-block" id="mentors">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOU DON'T HAVE TO FIGURE IT ALL OUT ALONE</span>
+          <h2>Find Your Mentor</h2>
+          <p>Tell us what you're curious about. We'll suggest mentors based on your preferences.</p>
+        </div>
+        <span class="heading-icon">♡</span>
+      </div>
+
+      <form id="matchForm" class="form-card">
+        <div class="form-grid">
+          <label>
+            What are you interested in?
+            <select id="interest" required>
+              <option value="">Choose an interest</option>
+              <option value="science">Science & Neuroscience</option>
+              <option value="technology">Technology & Coding</option>
+              <option value="humanities">Writing & Humanities</option>
+              <option value="psychology">Psychology & Mental Health</option>
+              <option value="art">Art, Design & Fashion</option>
+              <option value="community">Community Service & Leadership</option>
+            </select>
+          </label>
+          <label>
+            What's a goal you'd like to work toward?
+            <select id="goal" required>
+              <option value="">Choose a goal</option>
+              <option value="learn">Learn a new skill</option>
+              <option value="project">Build a personal project</option>
+              <option value="career">Explore a future career</option>
+              <option value="research">Explore research</option>
+              <option value="service">Make a community impact</option>
+            </select>
+          </label>
+          <label>
+            What kind of support sounds helpful?
+            <select id="support" required>
+              <option value="">Choose support</option>
+              <option value="guidance">General guidance</option>
+              <option value="hands-on">Hands-on project help</option>
+              <option value="academic">Academic or research advice</option>
+              <option value="creative">Creative brainstorming</option>
+            </select>
+          </label>
+          <label>
+            Preferred meeting style
+            <select id="availability" required>
+              <option value="">Choose a preference</option>
+              <option value="flexible">Flexible / asynchronous</option>
+              <option value="weekly">Weekly check-ins</option>
+              <option value="occasional">Occasional guidance</option>
+            </select>
+          </label>
+        </div>
+        <button class="primary-button" type="submit">Find my matches <span>→</span></button>
+        <p class="form-note">Your answers are used in this prototype to rank sample mentor profiles.</p>
+      </form>
+
+      <div id="matchStatus" class="status-message" aria-live="polite"></div>
+      <div id="results" class="mentor-grid"></div>
+    </section>
+
+    <section class="section-block" id="profile" hidden>
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">GET TO KNOW YOUR POTENTIAL MENTOR</span>
+          <h2 id="profileName">Mentor profile</h2>
+          <p id="profileRole"></p>
+        </div>
+        <button id="backToMatches" class="secondary-button">← Back to matches</button>
+      </div>
+      <div id="profileDetails" class="profile-card"></div>
+    </section>
+
+    <section class="explore-section section-block" id="explore">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOUR INTERESTS CAN TAKE YOU PLACES</span>
+          <h2>Explore Your Next Step</h2>
+          <p>Opportunities inspired by your interests, goals, and mentor matches.</p>
+        </div>
+        <span class="heading-icon">✦</span>
+      </div>
+
+      <div class="filter-row">
+        <label for="opportunityInterest">Personalize recommendations</label>
+        <select id="opportunityInterest">
+          <option value="all">All interests</option>
+          <option value="science">Science & Neuroscience</option>
+          <option value="technology">Technology & Coding</option>
+          <option value="humanities">Writing & Humanities</option>
+          <option value="psychology">Psychology & Mental Health</option>
+          <option value="art">Art, Design & Fashion</option>
+          <option value="community">Community Service & Leadership</option>
+        </select>
+      </div>
+
+      <div class="opportunity-grid" id="opportunityGrid"></div>
+      <p class="prototype-note">Sample recommendations are illustrative, not verified live listings. Check official websites for eligibility, deadlines, availability, and location before applying.</p>
+    </section>
+
+    <section class="section-block" id="projects">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOUR IDEAS DESERVE ROOM TO GROW</span>
+          <h2>My Projects</h2>
+          <p>Share an idea, find inspiration, and see which mentor skills might help.</p>
+        </div>
+        <span class="heading-icon">✧</span>
+      </div>
+
+      <form id="projectForm" class="form-card">
+        <div class="form-grid">
+          <label>
+            Project name
+            <input id="projectName" required maxlength="70" placeholder="e.g. A student resource website">
+          </label>
+          <label>
+            Main area
+            <select id="projectInterest" required>
+              <option value="">Choose an area</option>
+              <option value="science">Science & Neuroscience</option>
+              <option value="technology">Technology & Coding</option>
+              <option value="humanities">Writing & Humanities</option>
+              <option value="psychology">Psychology & Mental Health</option>
+              <option value="art">Art, Design & Fashion</option>
+              <option value="community">Community Service & Leadership</option>
+            </select>
+          </label>
+        </div>
+        <label>
+          Tell us about your idea
+          <textarea id="projectDescription" required maxlength="500" rows="3" placeholder="What would you like to create or explore?"></textarea>
+        </label>
+        <button class="primary-button" type="submit">Add my project <span>→</span></button>
+      </form>
+      <div id="projectShowcase" class="project-grid"></div>
+    </section>
+
+    <section class="section-block resources-section" id="resources">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">A LITTLE CURIOSITY GOES A LONG WAY</span>
+          <h2>Articles & Resources</h2>
+          <p>Start exploring a topic at your own pace.</p>
+        </div>
+        <span class="heading-icon">▤</span>
+      </div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://www.khanacademy.org/" target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">✎</span><strong>Khan Academy</strong><p>Free lessons across math, science, humanities, and more.</p><span class="text-link">Explore lessons ↗</span>
+        </a>
+        <a class="resource-card" href="https://www.edx.org/" target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">▤</span><strong>edX</strong><p>Explore online courses from universities and institutions.</p><span class="text-link">Browse courses ↗</span>
+        </a>
+        <a class="resource-card" href="https://www.sciencebuddies.org/" target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">✧</span><strong>Science Buddies</strong><p>Find STEM project ideas and research inspiration.</p><span class="text-link">Discover projects ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="safety-panel" id="safety">
+      <div class="safety-icon">♡</div>
+      <div>
+        <h2>Mentorship should feel safe.</h2>
+        <p>Open Doors is a student-focused prototype. Real mentor connections would require appropriate screening, privacy protections, reporting tools, and safeguards for minors.</p>
+        <a href="#safetyDetails" class="text-link" id="safetyToggle" aria-expanded="false">Our safety commitments +</a>
+        <div id="safetyDetails" hidden>
+          <ul>
+            <li>Mentor profiles in this demo are fictional examples.</li>
+            <li>Do not share private contact details or sensitive personal information.</li>
+            <li>A real launch should include adult oversight, identity checks, moderation, and clear reporting procedures.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="safety-cat" aria-hidden="true">🐱<span>♡</span></div>
+    </section>
+
+      <script src="script.js"></script>
+</body>
+</html>
